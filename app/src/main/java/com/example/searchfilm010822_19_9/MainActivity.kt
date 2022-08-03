@@ -1,4 +1,5 @@
 package com.example.searchfilm010822_19_9
+import FilmListRecyclerAdapter
 import android.content.Intent
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.appcompat.app.AppCompatActivity
