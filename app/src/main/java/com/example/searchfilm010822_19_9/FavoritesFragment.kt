@@ -42,6 +42,7 @@ class FavoritesFragment : Fragment() {
             addItemDecoration(decorator)
         }
         //Кладем нашу БД в RV
-        filmsAdapter.addItems(favoritesList)
+       // filmsAdapter.add
+        //filmsAdapter.addItems(favoritesList)
     }
 }
