@@ -1,12 +1,11 @@
 package com.example.searchfilm010822_19_9
-import FilmListRecyclerAdapter
-import android.content.Intent
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.appcompat.app.AppCompatActivity
+
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
 
@@ -35,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.watch_later -> {
-                    Toast.makeText(this, "Посмотреть позже", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Посмотреть похже", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.selections -> {
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
-
     }
 
     fun launchDetailsFragment(film: Film) {
