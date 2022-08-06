@@ -5,7 +5,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
-@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
 
